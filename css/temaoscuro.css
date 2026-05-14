@@ -1,0 +1,6 @@
+body { background-color: #1a1a2e; color: #e0e0e0; }
+a { color: #a58bff; }
+button { background-color: #6c5ce7; color: #fff; }
+button:hover { background-color: #5a4bd0; }
+input, select { background-color: #2a2a40; color: #e0e0e0; border-color: #555; }
+nav a { color: #a58bff; }
