@@ -1,6 +1,37 @@
-body { background-color: #f9f9f9; color: #222; }
-a { color: #4A3B8C; }
-button { background-color: #4A3B8C; color: #fff; }
-button:hover { background-color: #3a2d70; }
-input, select { background-color: #fff; color: #222; }
-nav a { color: #4A3B8C; }
+/* TEMA CLARO - Limpio y Corporativo */
+body {
+    background-color: #f4f7f6;
+    color: #2c3e50;
+}
+
+.card {
+    background-color: #ffffff;
+    color: #2c3e50;
+}
+
+/* Navbar y Enlaces */
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e1e8ed;
+}
+
+.nav-link { color: #4a5568 !important; }
+.nav-link:hover { color: #3182ce !important; }
+
+/* Botones y Formularios */
+.btn-primary {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+.form-control {
+    background-color: #ffffff;
+    border-color: #d1d5db;
+    color: #1a202c;
+}
+
+.form-control:focus {
+    background-color: #fff;
+    border-color: #3498db;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+}

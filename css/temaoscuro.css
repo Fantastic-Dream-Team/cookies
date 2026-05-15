@@ -1,6 +1,48 @@
-body { background-color: #1a1a2e; color: #e0e0e0; }
-a { color: #a58bff; }
-button { background-color: #6c5ce7; color: #fff; }
-button:hover { background-color: #5a4bd0; }
-input, select { background-color: #2a2a40; color: #e0e0e0; border-color: #555; }
-nav a { color: #a58bff; }
+/* TEMA OSCURO - Estilo Moderno / "Midnight" */
+body {
+    background-color: #1a1a2e;
+    color: #e2e8f0;
+}
+
+.card {
+    background-color: #16213e;
+    color: #e2e8f0;
+    border: 1px solid #2d3748;
+}
+
+/* Navbar y Enlaces en modo oscuro */
+.navbar {
+    background-color: #0f3460;
+    border-bottom: 1px solid #1a1a2e;
+}
+
+.nav-link { color: #cbd5e0 !important; }
+.nav-link:hover { color: #63b3ed !important; }
+
+/* Botones y Formularios en modo oscuro */
+.btn-primary {
+    background-color: #e94560; /* Acento vibrante para modo oscuro */
+    border-color: #e94560;
+}
+
+.form-control, .form-select {
+    background-color: #0f3460;
+    border-color: #1a1a2e;
+    color: #ffffff;
+}
+
+.form-control:focus {
+    background-color: #16213e;
+    border-color: #e94560;
+    color: #ffffff;
+    box-shadow: 0 0 0 3px rgba(233, 69, 96, 0.3);
+}
+
+/* Tablas en modo oscuro */
+.table {
+    color: #e2e8f0;
+}
+.table-hover tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #ffffff;
+}

@@ -1,26 +1,36 @@
-* { margin: 0; padding: 0; box-sizing: border-box; }
- 
+/* Importante: Mantener transiciones para un efecto profesional */
 body {
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  min-height: 100vh;
-  padding: 2rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.contenedor { max-width: 700px; margin: 0 auto; }
-h1 { margin-bottom: 1.5rem; }
-a  { text-decoration: none; margin-right: 1rem; }
-a:hover { text-decoration: underline; }
-label { display: block; margin-bottom: .3rem; font-weight: bold; }
-input, select {
-  display: block; width: 100%;
-  padding: .5rem; margin-bottom: 1rem;
-  border: 1px solid #ccc; border-radius: 4px;
+
+/* Contenedores personalizados para formularios */
+.contenedor-login {
+    max-width: 400px;
+    margin: 80px auto;
 }
-button {
-  padding: .5rem 1.5rem; border: none;
-  border-radius: 4px; cursor: pointer; font-size: 1rem;
+
+/* Tarjetas con bordes redondeados y sombra suave */
+.card {
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
 }
-.msg-error { color: #c0392b; margin-bottom: 1rem; }
-.msg-ok    { color: #27ae60; margin-bottom: 1rem; }
-nav { margin-bottom: 1.5rem; }
-.stat { font-size: 1.1rem; margin-bottom: .5rem; }
+
+/* Ajustes para la tabla de administración */
+.table {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Mensajes de feedback */
+.msg-ok { color: #2ecc71; font-weight: 500; }
+.msg-error { color: #e74c3c; font-weight: 500; }
+
+/* Dashboard stats */
+.stat-val {
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: block;
+}
